@@ -21,7 +21,7 @@ public class HarmonicNumber {
         Scanner sc =new Scanner(System.in);
         int number = sc.nextInt();
         if(number>0)
-        harmonicNumber(number);
+            harmonicNumber(number);
         else
             System.out.println("Incorrect Input");
     }
