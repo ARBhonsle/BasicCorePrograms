@@ -14,6 +14,9 @@ public class PowerOfTwo {
         System.out.println("Give a positive number(N) [N>=0 && N<31]");
         Scanner read =new Scanner(System.in);
         int number=read.nextInt();
+        if(number>=0 && number<31)
         powerTwo(number);
+        else
+            System.out.println("Incorrect Input");
     }
 }
