@@ -8,7 +8,8 @@ public class PrimeFactors {
         while(i<=number){
             if(number%i==0){
                 System.out.println(i);
-                number/=i;
+                while (number%i==0)
+                    number/=i;
             }else{
                 i++;
             }
